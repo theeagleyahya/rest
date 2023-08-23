@@ -7,8 +7,9 @@
 body{
     padding: 10px;
     display: flex;
+    height: 100vh;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(233, 70, 225) 50%, rgb(70, 233, 219));
+    background: linear-gradient(to bottom, rgb(233, 70, 225) 20%, rgb(70, 233, 219)70%);
 }
 
 main{
@@ -30,10 +31,10 @@ header > h2 {
 }
 
 aside{
-    height: 100vh;
+    height: fit-content;
     color: black;
     padding-right: 5px;
-    background: linear-gradient(to bottom, rgb(70, 233, 219) 20%, rgb(233, 70, 225) 50%);
+    background: rgb(70, 233, 219)
 }
 
 aside .contact{
